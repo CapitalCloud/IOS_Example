@@ -1,0 +1,1 @@
+../../../IOS_CapitalCloudSDK_Library/CapitalCloudClient/CapitalCloudGetMethod.h
