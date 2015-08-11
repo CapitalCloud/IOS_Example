@@ -26,7 +26,7 @@ video player:
 
 	seek;
 
-	hideControlBar;
+	hide control bar;
 
 	volume control;
 

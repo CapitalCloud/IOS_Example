@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_IOS_CapitalCloudSDK_Library
 #define COCOAPODS_VERSION_MAJOR_IOS_CapitalCloudSDK_Library 1
 #define COCOAPODS_VERSION_MINOR_IOS_CapitalCloudSDK_Library 0
-#define COCOAPODS_VERSION_PATCH_IOS_CapitalCloudSDK_Library 3
+#define COCOAPODS_VERSION_PATCH_IOS_CapitalCloudSDK_Library 4
 
