@@ -10,14 +10,14 @@
 	<string>Example</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0C3A1BBCA282FA2262B4DD33DA00035C27E0B166</key>
+		<key>847832C600B6D2807C9C3A8EC0CF73C0B60620C4</key>
 		<string>https://github.com/stonemountain/IOS_Example</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Example.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0C3A1BBCA282FA2262B4DD33DA00035C27E0B166</key>
+		<key>847832C600B6D2807C9C3A8EC0CF73C0B60620C4</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0C3A1BBCA282FA2262B4DD33DA00035C27E0B166</string>
+	<string>847832C600B6D2807C9C3A8EC0CF73C0B60620C4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0C3A1BBCA282FA2262B4DD33DA00035C27E0B166</string>
+			<string>847832C600B6D2807C9C3A8EC0CF73C0B60620C4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>IOS_Example</string>
 		</dict>

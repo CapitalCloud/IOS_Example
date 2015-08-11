@@ -10,21 +10,36 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>049DDCE10621ABD1D63F6ED5</key>
+		<key>0049B3FAAE8F708B004DE95B</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>50C27FF0D3E4F1042EED8A57</string>
-				<string>9583A4A92432108271C9B5FB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>fileRef</key>
+			<string>7E8CC19CE991FA5E64AF6D49</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>04D43723B7E513F099D5F7F7</key>
+		<key>0496C3404FA75551F7E035E7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FE5FEF376E6C20F726A4D907</string>
+				<string>17118D6C361D2ADCBB114FD8</string>
+				<string>994E47BD782EE325CD334DA1</string>
+				<string>CB2C8ACC832C89F257A8AF0C</string>
+				<string>F75D123CBD9F31FA3A6EE8EF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05ADF71E6AEC4B73B401E6D9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C09C9083557F983079D43361</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>068A246993D91303D5C90DBD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -33,13 +48,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CapitalCloudVideo.h</string>
+			<string>CapitalCloudVideoPlayerViewController.h</string>
 			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudVideo.h</string>
+			<string>CapitalCloudClient/CapitalCloudVideoPlayerViewController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>08BB78FFEF17804F516869EF</key>
+		<key>10776E8AB2F6A1187AEE8FC4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>49E24A65FE4DF3F3F5B846E1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>14B9970CF168E0A393622725</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -47,135 +69,27 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudHttpResponse.h</string>
 			<key>path</key>
-			<string>Pods-IOS_CapitalCloudSDK_Library-prefix.pch</string>
+			<string>CapitalCloudClient/CapitalCloudHttpResponse.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0CBF3F7041A6EFA6E32AF509</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D1A957A255A7C243BCC12EA1</string>
-				<string>1860AA01D362D2BF2B4591DB</string>
-				<string>BCC34FC80CC54059419A00ED</string>
-				<string>74F9E70687B8EC74C5B5E5AD</string>
-				<string>577CBBEEFB3C1E3220DFA72D</string>
-				<string>3F8B80028A5068B292E3D508</string>
-				<string>B8D91F8198314023363D64B7</string>
-				<string>18A5E37C1D3FFE1FEDC27726</string>
-				<string>EA4743B543A447E77FE86FEA</string>
-				<string>83F964AFB0E31BB27045D413</string>
-				<string>39F1AE6CF3A01DC16883EC17</string>
-				<string>57F58991ADE6A31AC3DE17BF</string>
-				<string>F654533A94960B53BBD2EEFF</string>
-				<string>F225CF792188EBA19B0F691D</string>
-				<string>B2CA039D32D2CC0790653301</string>
-				<string>10E38DF774C41AB9A9E63440</string>
-				<string>197D33DC58146E16CDF5E40A</string>
-				<string>9840EB14D47C7B2FCCEF4AA9</string>
-				<string>8EDCB017B851D2AFDFD50ED7</string>
-				<string>D5232EE39D4EADD4786CDF1E</string>
-				<string>FAFC9E09F4916435D3E0FED2</string>
-				<string>2E92FC00671F408E812623C2</string>
-				<string>61C3C6A317173631F87A107F</string>
-				<string>62A41646F00BF9DACCE7D42F</string>
-				<string>12215BFF76E323F3E1302E4D</string>
-				<string>90ADFA924F49F3205D568CAB</string>
-				<string>CB463C5BD981C309250BA1EE</string>
-				<string>E9D70BAF736B332525A4DC73</string>
-				<string>7F3D7D6E9F622B8FF0FE1CD2</string>
-				<string>F7D49F141CDA0BDFCEAF9E48</string>
-				<string>3186CA1C3F9DA5E6EBC89BEC</string>
-				<string>95FE2DABA8B8A498116D3818</string>
-				<string>CF46258E750A5B39361F5B68</string>
-				<string>AB53947CDFDA3E0F38D9AB74</string>
-				<string>0DFF2CA2BA575839F3ECD963</string>
-				<string>FA38239631ACA15CF466E61B</string>
-				<string>16BA754A86A1A45EE0CF8BA2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0DFF2CA2BA575839F3ECD963</key>
-		<dict>
-			<key>fileRef</key>
-			<string>70898F426B7531BB7AB6FAA1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10E38DF774C41AB9A9E63440</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EB6A2895188E520B142B112D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1178F288714E4C989C62D3C8</key>
+		<key>17118D6C361D2ADCBB114FD8</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>BA00E6B766BCB791FC06EA01</string>
-				<string>E201AADD0064BBACFAE1EB1E</string>
-				<string>9B8E8970A00FA02B3D17CDB2</string>
-				<string>6095A9A6E355B9F9105A666A</string>
-				<string>2AF9D3F0802B6B9F187AFD6A</string>
-				<string>60A9F9113EAA39C7812B6FFA</string>
-				<string>26D5C052A39A68150EAD7827</string>
-				<string>E9C24D133674D3CEFBABD1E7</string>
-				<string>5C7946D08E9667D9A1A3B51E</string>
-				<string>FED0870218BD0F92EAE2DEAA</string>
-				<string>B9F548A19CF36A1ABF07A8D5</string>
-				<string>3DCF91FACE16246B16E3409D</string>
-				<string>997DF914AC7F182C68B67ACE</string>
-				<string>9BAC376EA2993509A0ADBF5C</string>
-				<string>6769EAC6D342C8311AA8D820</string>
-				<string>EB6A2895188E520B142B112D</string>
-				<string>5E7044AA8DA06B6F9839377E</string>
-				<string>124C6DE8B2BEDF321EE5EC16</string>
-				<string>C7D5AC4E99284092AEA19FCA</string>
-				<string>A86DF8385297F28077B6A6B7</string>
-				<string>38743EE3DFB98B459F4B03C3</string>
-				<string>E71407672BB233EDDCBAE652</string>
-				<string>B2C823700AC684E1DDE43CD9</string>
-				<string>E07FC8044C92875A655A3DD8</string>
-				<string>04D43723B7E513F099D5F7F7</string>
-				<string>B18331EC9907AF7B397AEF51</string>
-				<string>AF24BC0EE6CB227529375EF0</string>
-				<string>FAA3A9AEC7D5C1A011C384B1</string>
-				<string>2107A5660391FBFDBA70AA69</string>
-				<string>A9AD191AEDD84D70C61A072E</string>
-				<string>980F091006C8B7BE8B68AB9E</string>
-				<string>8EE17A79257510D24F6AB772</string>
-				<string>E46DC1233DE5549A8C85D66B</string>
-				<string>A33BE655282E5825FB28EA0C</string>
-				<string>70898F426B7531BB7AB6FAA1</string>
-				<string>8FFE5D935FE227BB82DAAE78</string>
-				<string>B84822E0BCA84E7541C32B5E</string>
-				<string>3D0FB11A1052E5E37512B30F</string>
-				<string>C872EA3EA0ADF3CBE10F824C</string>
+				<string>FB3D654DE978776E429395AC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>IOS_CapitalCloudSDK_Library</string>
-			<key>path</key>
-			<string>IOS_CapitalCloudSDK_Library</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>12215BFF76E323F3E1302E4D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04D43723B7E513F099D5F7F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>124C6DE8B2BEDF321EE5EC16</key>
+		<key>1A5893B5988F51DD36253164</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -190,189 +104,201 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>12E71182AF87A79A7B3F74CF</key>
+		<key>1DED28AEEA10FE43452D101E</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>9C375E3009629F736B2F77C1</string>
-				<string>1F3FDF49EC5299F2E1BAB880</string>
-			</array>
+			<key>fileRef</key>
+			<string>980B9FF132838F2EDCEDA229</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>13DCCF3A13C76CD1D2C7BB5A</key>
+		<key>1EAA79BFE8A7DB1525FB5F14</key>
+		<dict>
+			<key>fileRef</key>
+			<string>20ABDCAE5627DAA2B3312833</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1FC118D136D5761A6EF6F54A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>756D79B00713ED93CDC9AC36</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1FC1E93BDB7142AF76201467</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudPlayerView.h</string>
 			<key>path</key>
-			<string>Pods-IOS_CapitalCloudSDK_Library-dummy.m</string>
+			<string>CapitalCloudClient/CapitalCloudPlayerView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>13FD1DCD14F8515DDE9D4814</key>
+		<key>20ABDCAE5627DAA2B3312833</key>
 		<dict>
-			<key>fileRef</key>
-			<string>C0285B08FF3F51A59FD987F0</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SegmentDownloader.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/SegmentDownloader.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>16BA754A86A1A45EE0CF8BA2</key>
+		<key>2166F091A7ABEA7657BA899F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>B84822E0BCA84E7541C32B5E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1860AA01D362D2BF2B4591DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E201AADD0064BBACFAE1EB1E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18A5E37C1D3FFE1FEDC27726</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9C24D133674D3CEFBABD1E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18E4DB7876BC82EF1CD01E3A</key>
-		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>1178F288714E4C989C62D3C8</string>
+				<string>5D3F1402A51F5408BE5B07F6</string>
+				<string>E28967B72F078033A0028559</string>
+				<string>6CEE6699DF017B6BFACA565E</string>
+				<string>EE8BD518EFB1C7D89038EC26</string>
+				<string>644211BC964632F16CC94FBB</string>
+				<string>B566DD5BCC11C96A8CD0EF2C</string>
+				<string>36C2D1ACD6E52608E7289E84</string>
+				<string>1DED28AEEA10FE43452D101E</string>
+				<string>B46EE31A020F15C990053C46</string>
+				<string>0049B3FAAE8F708B004DE95B</string>
+				<string>EA89BBDB0D87CF815E7DA70B</string>
+				<string>71E4C55E7F4FED3403ECBE27</string>
+				<string>FBDFCEB5CA6FF9C88FF0921F</string>
+				<string>29211AB120E3EF3E96419DE4</string>
+				<string>2A6A1D69F7B3D72850B1DBF9</string>
+				<string>10776E8AB2F6A1187AEE8FC4</string>
+				<string>1FC118D136D5761A6EF6F54A</string>
+				<string>7EC077D40B34E673774EC2B3</string>
+				<string>44C6A7C57A85FF81BCF2AC38</string>
+				<string>DB1351F3F126B1EEEEAE0262</string>
+				<string>A8C18D32755F1C1CA180A9CD</string>
+				<string>42341C3DBAFEA06B48DECF8C</string>
+				<string>05ADF71E6AEC4B73B401E6D9</string>
+				<string>EA3985D612D82811DCD49E22</string>
+				<string>7C01AFDE6C521FAFA4659DB1</string>
+				<string>95CF9BE3579BF70C268615F0</string>
+				<string>FB580994ADF336FCC6EE9F65</string>
+				<string>7BA5DDF6B2B0A506D29B6FA4</string>
+				<string>8F2D29A31119666DF79D596C</string>
+				<string>67C776F3D4E19287D1395F7A</string>
+				<string>AD30300B836B4B02AECCD4A4</string>
+				<string>C99A44050E36717000080C8A</string>
+				<string>A6A6C5601B4AE9A8EB5912EC</string>
+				<string>DF9E0E0ECB8CBA4BEB6FE2F6</string>
+				<string>C7E2EED13418ACE55809CE44</string>
+				<string>1EAA79BFE8A7DB1525FB5F14</string>
+				<string>948D9769C75314F918F18ABB</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>197D33DC58146E16CDF5E40A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E7044AA8DA06B6F9839377E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1F3FDF49EC5299F2E1BAB880</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-IOS_CapitalCloudSDK_Library.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>2107A5660391FBFDBA70AA69</key>
+		<key>21D5782DA94FF6AB13560E06</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudVideoPlayer.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudVideoPlayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>26D5C052A39A68150EAD7827</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudFilePart.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudFilePart.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AF9D3F0802B6B9F187AFD6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudClient.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C690667FD0578D568C2E93C</key>
-		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>962C5B030CA237B15946A541</string>
-				<string>7BE1FFDB13704E2F51D51ABB</string>
-				<string>C0285B08FF3F51A59FD987F0</string>
-				<string>D360ECE4DE67BEDECD4EC83A</string>
-				<string>C5C50921C0BF561FCBFE63D4</string>
-				<string>5B901D451B13D66DA7FDD638</string>
-				<string>F20945EAB38041B73D77D4B9</string>
+				<string>6FE3054B978D97DB51B2CA8F</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2E92FC00671F408E812623C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E71407672BB233EDDCBAE652</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3186CA1C3F9DA5E6EBC89BEC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>980F091006C8B7BE8B68AB9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37BB4C5BB38249870DD50DCD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FD87DC8046122E16FF016856</string>
-				<string>C03487C3B34095481D2347DC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
-		<key>38743EE3DFB98B459F4B03C3</key>
+		<key>244F746DB128096A08DCB21D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DE56914A9B294EB96D4651CE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>29005B341E5785CB10B582AE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>29211AB120E3EF3E96419DE4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>14B9970CF168E0A393622725</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2A6A1D69F7B3D72850B1DBF9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B77437FCBD5C9344CDE75DA4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2CFEBE8C17B13F39935825B8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E5E9CB54851A417B841FE365</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2E2AEADF1E6F9FA1F3BB9937</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -381,33 +307,108 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CapitalCloudPostMethod.h</string>
+			<string>CapitalCloudVideo.h</string>
 			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudPostMethod.h</string>
+			<string>CapitalCloudClient/CapitalCloudVideo.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>39F1AE6CF3A01DC16883EC17</key>
+		<key>30A2E243005B6E078208C089</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudPlayerViewController.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudPlayerViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>36C2D1ACD6E52608E7289E84</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B9F548A19CF36A1ABF07A8D5</string>
+			<string>84ED0049FCF9FABA7711C1CD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3D0FB11A1052E5E37512B30F</key>
+		<key>379AFE8999DFD5C82155C1DF</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>FA2FFFB63D661B733167C5B4</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>CapitalCloudVideoDownloaderManager.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudVideoDownloaderManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3DCF91FACE16246B16E3409D</key>
+		<key>3838A5D56F921677CACE0156</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>39C1B62FD9B01303D35A7BE3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudEntriesHandler.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudEntriesHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3A52BD321FA84C94F29D6DC6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudCategory.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudCategory.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3C9E339F456D104EBB21F19E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudHttpClient.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudHttpClient.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3DEF959F8D9C959B00F88934</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -422,81 +423,93 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3E6A3760AE4F1A020592BE9A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EC2BBE2ED542C190B9697885</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3F8B80028A5068B292E3D508</key>
-		<dict>
-			<key>fileRef</key>
-			<string>60A9F9113EAA39C7812B6FFA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4B85624B2A64DDCD4363AA62</key>
+		<key>3FB22F868EBF37A491556CBC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudAPIClient.h</string>
 			<key>path</key>
-			<string>Pods-IOS_CapitalCloudSDK_Library.xcconfig</string>
+			<string>CapitalCloudClient/CapitalCloudAPIClient.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4C74E57C408CD12448402EB4</key>
+		<key>42341C3DBAFEA06B48DECF8C</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F585756561DA8CF6A225442A</string>
-			</array>
+			<key>fileRef</key>
+			<string>D4790843F058D70A73DDE4A6</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>4DECFC54473D42071CB69518</key>
+		<key>44C6A7C57A85FF81BCF2AC38</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1FC1E93BDB7142AF76201467</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4638353162304EB586F9FFCD</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>B1BC11C01681B39E798D322B</string>
+				<string>F48E23FF24077E882AF2F3DD</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>4E4756BB44D331B18CD35B88</key>
+		<key>49E24A65FE4DF3F3F5B846E1</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>7F4EB0D09491475E8EB1371A</string>
-				<string>D98835B0107CEFBBE9EF0161</string>
-				<string>18E4DB7876BC82EF1CD01E3A</string>
-				<string>12E71182AF87A79A7B3F74CF</string>
-				<string>B55CBD45249474B7200A316D</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudImageDownloader.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudImageDownloader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>501E3B7664144D8CCA3AC970</key>
+		<key>49F5417E736DA43255DC8184</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudVideoPlayerConfigurations.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudVideoPlayerConfigurations.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4B1F26A13121EA30890017BB</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>766223F3447E52CB690E56EA</string>
+				<string>550C3D6519A6DD0C01B5E0A0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>54274A5BD7435E38CECDF60C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -509,7 +522,70 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>50C27FF0D3E4F1042EED8A57</key>
+		<key>550C3D6519A6DD0C01B5E0A0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>54274A5BD7435E38CECDF60C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-IOS_CapitalCloudSDK_Library/Pods-IOS_CapitalCloudSDK_Library-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>565410F6B026E14560C56CB1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5D02A7193527924E6A485777</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -576,222 +652,84 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>577CBBEEFB3C1E3220DFA72D</key>
+		<key>5D3F1402A51F5408BE5B07F6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2AF9D3F0802B6B9F187AFD6A</string>
+			<string>3FB22F868EBF37A491556CBC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>57F58991ADE6A31AC3DE17BF</key>
+		<key>6135E926DBDA8DD9262E9640</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3DCF91FACE16246B16E3409D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5B901D451B13D66DA7FDD638</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C7946D08E9667D9A1A3B51E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudFullScreenPlayerViewController.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudFullScreenPlayerViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E7044AA8DA06B6F9839377E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudMultipartMethod.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudMultipartMethod.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6095A9A6E355B9F9105A666A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudCategory.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudCategory.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60A9F9113EAA39C7812B6FFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudEntriesHandler.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudEntriesHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61C3C6A317173631F87A107F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B2C823700AC684E1DDE43CD9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62A41646F00BF9DACCE7D42F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E07FC8044C92875A655A3DD8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6769EAC6D342C8311AA8D820</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudImage.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudImage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70898F426B7531BB7AB6FAA1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>M3u8Handler.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/M3u8Handler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>74F9E70687B8EC74C5B5E5AD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6095A9A6E355B9F9105A666A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7BE1FFDB13704E2F51D51ABB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F3D7D6E9F622B8FF0FE1CD2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2107A5660391FBFDBA70AA69</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7F4EB0D09491475E8EB1371A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>83F964AFB0E31BB27045D413</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FED0870218BD0F92EAE2DEAA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86D51BCD254B4E64A242414F</key>
-		<dict>
-			<key>children</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>E083A918E568571CC3A6C93A</string>
+				<string>2CFEBE8C17B13F39935825B8</string>
+				<string>77C6F87226F75C8D3F149656</string>
 			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>644211BC964632F16CC94FBB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ABCEB24BAD411CCAD54E6DF1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>661FBAE44940842F5B1710FB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>iOS</string>
+			<string>CapitalCloudStringPart.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudStringPart.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>890548871A3E58FCCAD46BF3</key>
+		<key>6777E8CAB02415962F1B1E3F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5D02A7193527924E6A485777</string>
+				<string>7337DE8CA069B45A771F2E45</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>67C776F3D4E19287D1395F7A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>49F5417E736DA43255DC8184</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6A7E0DA7FC7A260EBC9C98C9</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>13FD1DCD14F8515DDE9D4814</string>
+				<string>244F746DB128096A08DCB21D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>8EDCB017B851D2AFDFD50ED7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C7D5AC4E99284092AEA19FCA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8EE17A79257510D24F6AB772</key>
+		<key>6B6668DC090CB364ED904C17</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -800,35 +738,34 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CapitalCloudVideoPlayerViewController.h</string>
+			<string>CapitalCloudHttpMethod.h</string>
 			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudVideoPlayerViewController.h</string>
+			<string>CapitalCloudClient/CapitalCloudHttpMethod.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8FFE5D935FE227BB82DAAE78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SegmentDownloader.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/SegmentDownloader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90ADFA924F49F3205D568CAB</key>
+		<key>6CEE6699DF017B6BFACA565E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B18331EC9907AF7B397AEF51</string>
+			<string>FF0E612AFE22DC777A025364</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9583A4A92432108271C9B5FB</key>
+		<key>6FE3054B978D97DB51B2CA8F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3838A5D56F921677CACE0156</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>71E4C55E7F4FED3403ECBE27</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3DEF959F8D9C959B00F88934</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7337DE8CA069B45A771F2E45</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -890,27 +827,22 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>95FE2DABA8B8A498116D3818</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8EE17A79257510D24F6AB772</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>962C5B030CA237B15946A541</key>
+		<key>756D79B00713ED93CDC9AC36</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudMultipartMethod.h</string>
 			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
+			<string>CapitalCloudClient/CapitalCloudMultipartMethod.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>980F091006C8B7BE8B68AB9E</key>
+		<key>7622891B33A9EDB44DA45A1C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -925,153 +857,37 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9840EB14D47C7B2FCCEF4AA9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>124C6DE8B2BEDF321EE5EC16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>997DF914AC7F182C68B67ACE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudHttpMethod.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudHttpMethod.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B8E8970A00FA02B3D17CDB2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudCategoriesHandler.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudCategoriesHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9BAC376EA2993509A0ADBF5C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudHttpResponse.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudHttpResponse.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C375E3009629F736B2F77C1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A33BE655282E5825FB28EA0C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudVideoUploaderManager.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudVideoUploaderManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A86DF8385297F28077B6A6B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudPlayerViewController.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudPlayerViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9AD191AEDD84D70C61A072E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudVideoPlayerConfigurations.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudVideoPlayerConfigurations.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB53947CDFDA3E0F38D9AB74</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A33BE655282E5825FB28EA0C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABD54A672A9D7DA8E2896A2B</key>
+		<key>766223F3447E52CB690E56EA</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>501E3B7664144D8CCA3AC970</string>
+			<string>54274A5BD7435E38CECDF60C</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
 				<string>NO</string>
 				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>DSTROOT</key>
 				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
 				<string>Target Support Files/Pods-IOS_CapitalCloudSDK_Library/Pods-IOS_CapitalCloudSDK_Library-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -1084,264 +900,16 @@
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Debug</string>
 		</dict>
-		<key>ABE87819B90F2179916FEB5E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FF7EA50258FC9DB9ADB87012</string>
-				<string>ABD54A672A9D7DA8E2896A2B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>AF24BC0EE6CB227529375EF0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudVideoDownloaderManager.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudVideoDownloaderManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B146D7F2AF83BE925E4B699B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>ABE87819B90F2179916FEB5E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4C74E57C408CD12448402EB4</string>
-				<string>4DECFC54473D42071CB69518</string>
-				<string>0CBF3F7041A6EFA6E32AF509</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-IOS_CapitalCloudSDK_Library</string>
-			<key>productName</key>
-			<string>Pods-IOS_CapitalCloudSDK_Library</string>
-			<key>productReference</key>
-			<string>1F3FDF49EC5299F2E1BAB880</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>B18331EC9907AF7B397AEF51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudVideoDownloader.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudVideoDownloader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B1BC11C01681B39E798D322B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E083A918E568571CC3A6C93A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B2C823700AC684E1DDE43CD9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudRenditionUrl.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudRenditionUrl.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2CA039D32D2CC0790653301</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6769EAC6D342C8311AA8D820</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B55CBD45249474B7200A316D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2C690667FD0578D568C2E93C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B84822E0BCA84E7541C32B5E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VideoDownloader.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/VideoDownloader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8D91F8198314023363D64B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>26D5C052A39A68150EAD7827</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B9F548A19CF36A1ABF07A8D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudHttpClient.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudHttpClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA00E6B766BCB791FC06EA01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudAPIClient.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudAPIClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCC34FC80CC54059419A00ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B8E8970A00FA02B3D17CDB2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD7EB06386CF031D39B1C587</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>37BB4C5BB38249870DD50DCD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>890548871A3E58FCCAD46BF3</string>
-				<string>3E6A3760AE4F1A020592BE9A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D2DA794D8FA127556FF5BB85</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>9C375E3009629F736B2F77C1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>BDE576CEB733F059E44B99B6</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>049DDCE10621ABD1D63F6ED5</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>4E4756BB44D331B18CD35B88</string>
-			<key>productRefGroup</key>
-			<string>12E71182AF87A79A7B3F74CF</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>BD7EB06386CF031D39B1C587</string>
-				<string>B146D7F2AF83BE925E4B699B</string>
-			</array>
-		</dict>
-		<key>C0285B08FF3F51A59FD987F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C03487C3B34095481D2347DC</key>
+		<key>77C6F87226F75C8D3F149656</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F20945EAB38041B73D77D4B9</string>
+			<string>565410F6B026E14560C56CB1</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -1386,316 +954,81 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>C5C50921C0BF561FCBFE63D4</key>
+		<key>7B121534F0554A47216B522D</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildConfigurationList</key>
+			<string>6135E926DBDA8DD9262E9640</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D2CD9D2F1320479BEC3CFE83</string>
+				<string>21D5782DA94FF6AB13560E06</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>7FB562CBF0FE77B9D45ECBE0</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7D5AC4E99284092AEA19FCA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>CapitalCloudPlayerView.h</string>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>B2874C411F367F7E408140CB</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>7B42A068D7B028DB7AE9C6D7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
 			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudPlayerView.h</string>
+			<string>Pods-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C872EA3EA0ADF3CBE10F824C</key>
+		<key>7BA5DDF6B2B0A506D29B6FA4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7D17BB3159161795F4E61B7E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7C01AFDE6C521FAFA4659DB1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E2AEADF1E6F9FA1F3BB9937</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7CE82EE029FA84266581B599</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>4B85624B2A64DDCD4363AA62</string>
-				<string>501E3B7664144D8CCA3AC970</string>
-				<string>13DCCF3A13C76CD1D2C7BB5A</string>
-				<string>08BB78FFEF17804F516869EF</string>
+				<string>7B42A068D7B028DB7AE9C6D7</string>
+				<string>E7015003DBEA1527BADC4359</string>
+				<string>D891571C58A5DF43B5FA9EE4</string>
+				<string>29005B341E5785CB10B582AE</string>
+				<string>FDFA541D90C30D4820864335</string>
+				<string>E5E9CB54851A417B841FE365</string>
+				<string>565410F6B026E14560C56CB1</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>Pods</string>
 			<key>path</key>
-			<string>../Target Support Files/Pods-IOS_CapitalCloudSDK_Library</string>
+			<string>Target Support Files/Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CB463C5BD981C309250BA1EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF24BC0EE6CB227529375EF0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CF46258E750A5B39361F5B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E46DC1233DE5549A8C85D66B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D1A957A255A7C243BCC12EA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA00E6B766BCB791FC06EA01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D2DA794D8FA127556FF5BB85</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-IOS_CapitalCloudSDK_Library</string>
-			<key>target</key>
-			<string>B146D7F2AF83BE925E4B699B</string>
-			<key>targetProxy</key>
-			<string>E422D015696FD57110941D59</string>
-		</dict>
-		<key>D360ECE4DE67BEDECD4EC83A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D5232EE39D4EADD4786CDF1E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A86DF8385297F28077B6A6B7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D98835B0107CEFBBE9EF0161</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86D51BCD254B4E64A242414F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E07FC8044C92875A655A3DD8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudStringPart.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudStringPart.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E083A918E568571CC3A6C93A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E201AADD0064BBACFAE1EB1E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudBasicMethod.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudBasicMethod.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E422D015696FD57110941D59</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>BDE576CEB733F059E44B99B6</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B146D7F2AF83BE925E4B699B</string>
-			<key>remoteInfo</key>
-			<string>Pods-IOS_CapitalCloudSDK_Library</string>
-		</dict>
-		<key>E46DC1233DE5549A8C85D66B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudVideoUploader.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudVideoUploader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E71407672BB233EDDCBAE652</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudRendition.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudRendition.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9C24D133674D3CEFBABD1E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudFullScreenPlayerView.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudFullScreenPlayerView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9D70BAF736B332525A4DC73</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAA3A9AEC7D5C1A011C384B1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA4743B543A447E77FE86FEA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C7946D08E9667D9A1A3B51E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EB6A2895188E520B142B112D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CapitalCloudImageDownloader.h</string>
-			<key>path</key>
-			<string>CapitalCloudClient/CapitalCloudImageDownloader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC2BBE2ED542C190B9697885</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E083A918E568571CC3A6C93A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F20945EAB38041B73D77D4B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F225CF792188EBA19B0F691D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9BAC376EA2993509A0ADBF5C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F585756561DA8CF6A225442A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13DCCF3A13C76CD1D2C7BB5A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F654533A94960B53BBD2EEFF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>997DF914AC7F182C68B67ACE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F7D49F141CDA0BDFCEAF9E48</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9AD191AEDD84D70C61A072E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FA2FFFB63D661B733167C5B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>path</key>
-			<string>libCapitalCloudClient.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA38239631ACA15CF466E61B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FFE5D935FE227BB82DAAE78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FAA3A9AEC7D5C1A011C384B1</key>
+		<key>7D17BB3159161795F4E61B7E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1710,61 +1043,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FAFC9E09F4916435D3E0FED2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38743EE3DFB98B459F4B03C3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD87DC8046122E16FF016856</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5B901D451B13D66DA7FDD638</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FED0870218BD0F92EAE2DEAA</key>
+		<key>7E8CC19CE991FA5E64AF6D49</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1779,57 +1058,778 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FF7EA50258FC9DB9ADB87012</key>
+		<key>7EC077D40B34E673774EC2B3</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>501E3B7664144D8CCA3AC970</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-IOS_CapitalCloudSDK_Library/Pods-IOS_CapitalCloudSDK_Library-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>fileRef</key>
+			<string>1A5893B5988F51DD36253164</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FB562CBF0FE77B9D45ECBE0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Pods-IOS_CapitalCloudSDK_Library</string>
+			<key>target</key>
+			<string>8D65AAB66BA050F05D6324CF</string>
+			<key>targetProxy</key>
+			<string>E736FEF3A57E39B1D53C24E4</string>
+		</dict>
+		<key>8423C29ECC70D8604D59AA07</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>VideoDownloader.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/VideoDownloader.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ED0049FCF9FABA7711C1CD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudFilePart.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudFilePart.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>870A26E1D6AE064E5368DBE6</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>6777E8CAB02415962F1B1E3F</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>0496C3404FA75551F7E035E7</string>
+			<key>productRefGroup</key>
+			<string>CB2C8ACC832C89F257A8AF0C</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>7B121534F0554A47216B522D</string>
+				<string>8D65AAB66BA050F05D6324CF</string>
+			</array>
+		</dict>
+		<key>87C319CF9C521A62E13080F2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8F0ABE1D4AB3135FB45ED8B1</string>
+				<string>54274A5BD7435E38CECDF60C</string>
+				<string>DE56914A9B294EB96D4651CE</string>
+				<string>D8AD394731E3C4CB7A36059A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-IOS_CapitalCloudSDK_Library</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8D65AAB66BA050F05D6324CF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>4B1F26A13121EA30890017BB</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6A7E0DA7FC7A260EBC9C98C9</string>
+				<string>4638353162304EB586F9FFCD</string>
+				<string>2166F091A7ABEA7657BA899F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-IOS_CapitalCloudSDK_Library</string>
+			<key>productName</key>
+			<string>Pods-IOS_CapitalCloudSDK_Library</string>
+			<key>productReference</key>
+			<string>B0E1A8D87CDB6B7D91B6E9AE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>8E14BF9648618961020C2420</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>M3u8Handler.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/M3u8Handler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F0ABE1D4AB3135FB45ED8B1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-IOS_CapitalCloudSDK_Library.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F2D29A31119666DF79D596C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A40C7167D999DB653A5408CB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>948D9769C75314F918F18ABB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8423C29ECC70D8604D59AA07</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>95CF9BE3579BF70C268615F0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A0B01AFF81BDA87146547B71</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>980B9FF132838F2EDCEDA229</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudFullScreenPlayerView.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudFullScreenPlayerView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>994E47BD782EE325CD334DA1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EE3CB28269E34BC2E1ADD290</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A0B01AFF81BDA87146547B71</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudVideoDownloader.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudVideoDownloader.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A40C7167D999DB653A5408CB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudVideoPlayer.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudVideoPlayer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A6A6C5601B4AE9A8EB5912EC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D07847BDB5AE2A987670E73F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A76735533367E9F2DC683C6E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudBasicMethod.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudBasicMethod.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8C18D32755F1C1CA180A9CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F82230CC06969EE0300579D1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ABCEB24BAD411CCAD54E6DF1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudClient.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudClient.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD30300B836B4B02AECCD4A4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7622891B33A9EDB44DA45A1C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B0E1A8D87CDB6B7D91B6E9AE</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-IOS_CapitalCloudSDK_Library.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B2874C411F367F7E408140CB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B46EE31A020F15C990053C46</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BAB3BD96302CAEFFA41CD177</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B566DD5BCC11C96A8CD0EF2C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>39C1B62FD9B01303D35A7BE3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B77437FCBD5C9344CDE75DA4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudImage.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudImage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B89C291A5C0E945FEEA70A27</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F5EEA0140BF7E36BAB124199</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BAB3BD96302CAEFFA41CD177</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudFullScreenPlayerViewController.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudFullScreenPlayerViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C09C9083557F983079D43361</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudRenditionUrl.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudRenditionUrl.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7E2EED13418ACE55809CE44</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8E14BF9648618961020C2420</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C99A44050E36717000080C8A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>068A246993D91303D5C90DBD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CB2C8ACC832C89F257A8AF0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B2874C411F367F7E408140CB</string>
+				<string>B0E1A8D87CDB6B7D91B6E9AE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D07847BDB5AE2A987670E73F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudVideoUploader.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudVideoUploader.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D2CD9D2F1320479BEC3CFE83</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E9AC124DBAABE7FA34D0A549</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D4790843F058D70A73DDE4A6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudRendition.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudRendition.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D891571C58A5DF43B5FA9EE4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8AD394731E3C4CB7A36059A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-IOS_CapitalCloudSDK_Library-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DB1351F3F126B1EEEEAE0262</key>
+		<dict>
+			<key>fileRef</key>
+			<string>30A2E243005B6E078208C089</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DE56914A9B294EB96D4651CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-IOS_CapitalCloudSDK_Library-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF9E0E0ECB8CBA4BEB6FE2F6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FCD425AE122009838958B6B3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E28967B72F078033A0028559</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A76735533367E9F2DC683C6E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E5E9CB54851A417B841FE365</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7015003DBEA1527BADC4359</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E736FEF3A57E39B1D53C24E4</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>870A26E1D6AE064E5368DBE6</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>8D65AAB66BA050F05D6324CF</string>
+			<key>remoteInfo</key>
+			<string>Pods-IOS_CapitalCloudSDK_Library</string>
+		</dict>
+		<key>E9AC124DBAABE7FA34D0A549</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D891571C58A5DF43B5FA9EE4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EA3985D612D82811DCD49E22</key>
+		<dict>
+			<key>fileRef</key>
+			<string>661FBAE44940842F5B1710FB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EA89BBDB0D87CF815E7DA70B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C9E339F456D104EBB21F19E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EE3CB28269E34BC2E1ADD290</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3FB22F868EBF37A491556CBC</string>
+				<string>A76735533367E9F2DC683C6E</string>
+				<string>FF0E612AFE22DC777A025364</string>
+				<string>3A52BD321FA84C94F29D6DC6</string>
+				<string>ABCEB24BAD411CCAD54E6DF1</string>
+				<string>39C1B62FD9B01303D35A7BE3</string>
+				<string>84ED0049FCF9FABA7711C1CD</string>
+				<string>980B9FF132838F2EDCEDA229</string>
+				<string>BAB3BD96302CAEFFA41CD177</string>
+				<string>7E8CC19CE991FA5E64AF6D49</string>
+				<string>3C9E339F456D104EBB21F19E</string>
+				<string>3DEF959F8D9C959B00F88934</string>
+				<string>6B6668DC090CB364ED904C17</string>
+				<string>14B9970CF168E0A393622725</string>
+				<string>B77437FCBD5C9344CDE75DA4</string>
+				<string>49E24A65FE4DF3F3F5B846E1</string>
+				<string>756D79B00713ED93CDC9AC36</string>
+				<string>1A5893B5988F51DD36253164</string>
+				<string>1FC1E93BDB7142AF76201467</string>
+				<string>30A2E243005B6E078208C089</string>
+				<string>F82230CC06969EE0300579D1</string>
+				<string>D4790843F058D70A73DDE4A6</string>
+				<string>C09C9083557F983079D43361</string>
+				<string>661FBAE44940842F5B1710FB</string>
+				<string>2E2AEADF1E6F9FA1F3BB9937</string>
+				<string>A0B01AFF81BDA87146547B71</string>
+				<string>379AFE8999DFD5C82155C1DF</string>
+				<string>7D17BB3159161795F4E61B7E</string>
+				<string>A40C7167D999DB653A5408CB</string>
+				<string>49F5417E736DA43255DC8184</string>
+				<string>7622891B33A9EDB44DA45A1C</string>
+				<string>068A246993D91303D5C90DBD</string>
+				<string>D07847BDB5AE2A987670E73F</string>
+				<string>FCD425AE122009838958B6B3</string>
+				<string>8E14BF9648618961020C2420</string>
+				<string>20ABDCAE5627DAA2B3312833</string>
+				<string>8423C29ECC70D8604D59AA07</string>
+				<string>B89C291A5C0E945FEEA70A27</string>
+				<string>87C319CF9C521A62E13080F2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>IOS_CapitalCloudSDK_Library</string>
+			<key>path</key>
+			<string>IOS_CapitalCloudSDK_Library</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE8BD518EFB1C7D89038EC26</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3A52BD321FA84C94F29D6DC6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F48E23FF24077E882AF2F3DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3838A5D56F921677CACE0156</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F5EEA0140BF7E36BAB124199</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>path</key>
+			<string>libCapitalCloudClient.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D123CBD9F31FA3A6EE8EF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7CE82EE029FA84266581B599</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F82230CC06969EE0300579D1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudPostMethod.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudPostMethod.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB3D654DE978776E429395AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3838A5D56F921677CACE0156</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB580994ADF336FCC6EE9F65</key>
+		<dict>
+			<key>fileRef</key>
+			<string>379AFE8999DFD5C82155C1DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FBDFCEB5CA6FF9C88FF0921F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6B6668DC090CB364ED904C17</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FCD425AE122009838958B6B3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudVideoUploaderManager.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudVideoUploaderManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDFA541D90C30D4820864335</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FE5FEF376E6C20F726A4D907</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>FF0E612AFE22DC777A025364</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CapitalCloudCategoriesHandler.h</string>
+			<key>path</key>
+			<string>CapitalCloudClient/CapitalCloudCategoriesHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>BDE576CEB733F059E44B99B6</string>
+	<string>870A26E1D6AE064E5368DBE6</string>
 </dict>
 </plist>

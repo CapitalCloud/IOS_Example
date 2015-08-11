@@ -73,7 +73,9 @@
     {
         ivc = (CapitalCloudPlayerViewController *)segue.destinationViewController;
         CGRect region = CGRectMake(0, 0, 320, 240);
-        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"107" inRegion:region];
+//        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"107" inRegion:region];
+//      capitalcloud
+        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"622181572574391587" inRegion:region];
 //        dev
 //        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"107" inRegion:region];
 //        staging
@@ -106,6 +108,17 @@
     [ivc seek:1];
 }
 
+- (IBAction)hideControlBar:(id)sender
+{
+    switch (((UISegmentedControl *)sender).selectedSegmentIndex) {
+        case 0:
+            [ivc hideControlBar:NO];
+            break;
+        case 1:
+            [ivc hideControlBar:YES];
+            break;
+    }
+}
 
 - (void) videoStart:(NSNotification*) notification
 {

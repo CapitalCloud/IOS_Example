@@ -11,7 +11,7 @@
  @header CapitalCloudPlayerViewController
  @abstract 视频播放控制类；
  @author capitalCloud
- @version 1.3.2
+ @version 1.0.1
  */
 #import <UIKit/UIKit.h>
 #import "CapitalCloudVideo.h"
@@ -42,6 +42,14 @@
  @discussion	视频正在播放时有效；
  */
 - (void) pause;
+
+/*!
+ @method
+ @abstract	显示或者隐藏进度条；
+ @discussion	决定进度条的显示状态，是否隐藏；
+ @param hodeOrNot [IN|OUT] 是否隐藏进度条；
+ */
+- (void) hideControlBar:(BOOL) hideOrNot;
 
 /*!
  @method

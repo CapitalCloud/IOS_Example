@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B146D7F2AF83BE925E4B699B"
+               BlueprintIdentifier = "8D65AAB66BA050F05D6324CF"
                BuildableName = "libPods-IOS_CapitalCloudSDK_Library.a"
                BlueprintName = "Pods-IOS_CapitalCloudSDK_Library"
                ReferencedContainer = "container:Pods.xcodeproj">

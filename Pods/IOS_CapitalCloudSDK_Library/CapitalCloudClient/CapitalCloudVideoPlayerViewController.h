@@ -32,6 +32,7 @@
 - (void)minimizeVideo;
 - (void)playPauseHandler;
 - (void)seekToTime:(CMTime)time;
+- (void)hideControlBar:(BOOL) hideOrNot;
 + (CapitalCloudVideoPlayerViewController *)videoPlayerWithContainingViewController:(UIViewController *)containingViewController topView:(UIView *)topView videoPlayInfor:(CapitalCloudVideoPlayInfor *)plinfo;
 
 
