@@ -21,9 +21,9 @@ static CapitalCloudVideoUploaderManager *_uploaderManager;
     if (!_apiClient)
     {
         
-//        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"SJQ-7zgT_lOwaq816PPkkc9gj9tFVhGg36BckvQ2B4w="];
+        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"SJQ-7zgT_lOwaq816PPkkfFG9wDuiTccdxxTXq1yTH8="];
 //      capitalcloud
-        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"U2QDmmEY5tOSEb6qw3g_p5hsmCOXc92iJd304oUq7ISgzT3KWRf61xKFm0fa_rEX"];
+//        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"U2QDmmEY5tOSEb6qw3g_p5hsmCOXc92iJd304oUq7ISgzT3KWRf61xKFm0fa_rEX"];
         
 //      dev
 //        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"SJQ-7zgT_lOwaq816PPkkQRsTEepLlhulfJpjSCE30g="];

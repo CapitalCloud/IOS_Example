@@ -108,7 +108,7 @@
         }
         @catch (NSException *exception)
         {
-            NSLog(@"%@",exception);
+            NSLog(@"ios:%@",exception);
         }
         @finally
         {
