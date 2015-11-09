@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-IOS_CapitalCloudSDK_Library.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>46F5472447138D90298F21DA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F48747B7154BB35B8221F127</key>
+		<key>1469924FC52F60B0068FA24EEFCB3EFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

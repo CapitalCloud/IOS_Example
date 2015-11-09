@@ -1,1 +1,0 @@
-../../../IOS_CapitalCloudSDK_Library/CapitalCloudClient/CapitalCloudHttpResponse.h
