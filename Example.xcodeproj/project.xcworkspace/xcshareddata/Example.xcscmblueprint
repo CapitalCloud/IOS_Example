@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "847832C600B6D2807C9C3A8EC0CF73C0B60620C4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0C3A1BBCA282FA2262B4DD33DA00035C27E0B166" : 0,
+    "847832C600B6D2807C9C3A8EC0CF73C0B60620C4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4E938401-1339-49F9-B50A-1FD68177B068",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0C3A1BBCA282FA2262B4DD33DA00035C27E0B166" : "IOS_Example%20copy",
+    "847832C600B6D2807C9C3A8EC0CF73C0B60620C4" : "IOS_Example\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Example",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stonemountain\/IOS_Example",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C3A1BBCA282FA2262B4DD33DA00035C27E0B166"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:CapitalCloud\/IOS_Example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "847832C600B6D2807C9C3A8EC0CF73C0B60620C4"
+    }
+  ]
+}

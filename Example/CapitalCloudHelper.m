@@ -21,7 +21,7 @@ static CapitalCloudVideoUploaderManager *_uploaderManager;
     if (!_apiClient)
     {
         
-        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"SJQ-7zgT_lOwaq816PPkkfFG9wDuiTccdxxTXq1yTH8="];
+        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"SJQ-7zgT_lOwaq816PPkkeJiCY5zjPAVGx-ZDyLL854="];
 //      capitalcloud
 //        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"U2QDmmEY5tOSEb6qw3g_p5hsmCOXc92iJd304oUq7ISgzT3KWRf61xKFm0fa_rEX"];
         

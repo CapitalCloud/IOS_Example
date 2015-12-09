@@ -73,7 +73,7 @@
     {
         ivc = (CapitalCloudPlayerViewController *)segue.destinationViewController;
         CGRect region = CGRectMake(0, 0, 320, 240);
-        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"428082998184697028" inRegion:region];
+        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"464869259962649779" inRegion:region];
 //      capitalcloud
 //        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"622181572574391587" inRegion:region];
 //        dev

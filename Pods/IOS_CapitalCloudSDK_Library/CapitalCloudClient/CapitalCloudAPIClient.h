@@ -9,7 +9,7 @@
  @header CapitalCloudAPIClient api交互
  @abstract APP和首云sdk的交互主要通过CapitalCloudAPIClient类,首先需要生成CapitalCloudAPIClient对象.
  @author capitalCloud
- @version 1.3.2
+ @version 1.0.4
  */
 #import <Foundation/Foundation.h>
 #import "CapitalCloudBasicMethod.h"
