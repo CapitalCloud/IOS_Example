@@ -39,6 +39,8 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoPause:)      name:videoPause object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoProgress:)   name:videoProgress object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoComplete:)   name:videoComplete object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(fullScreen:)   name:fullScreen object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(exitFullScreen:)   name:exitFullScreen object:nil];
     [super viewDidLoad];
     
 }
@@ -73,8 +75,8 @@
     {
         ivc = (CapitalCloudPlayerViewController *)segue.destinationViewController;
         CGRect region = CGRectMake(0, 0, 320, 240);
-        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"464869259962649779" inRegion:region];
-//      capitalcloud
+        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"428082998184697028" inRegion:region];
+        //      capitalcloud
 //        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"622181572574391587" inRegion:region];
 //        dev
 //        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"107" inRegion:region];
@@ -146,6 +148,20 @@
     id obj = [notification userInfo];
     NSLog(@"videoComplete obj:\n%@",obj);
     _status.text = [NSString stringWithFormat:@"videoComplete:%@",obj];
+}
+
+- (void) exitFullScreen:(NSNotification*) notification
+{
+    id obj = [notification userInfo];
+    NSLog(@"exitFullScreen obj:\n%@",obj);
+    _status.text = [NSString stringWithFormat:@"exitFullScreen:%@",obj];
+}
+
+- (void) fullScreen:(NSNotification*) notification
+{
+    id obj = [notification userInfo];
+    NSLog(@"fullScreen obj:\n%@",obj);
+    _status.text = [NSString stringWithFormat:@"fullScreen:%@",obj];
 }
 
 - (void) videoProgress:(NSNotification*) notification

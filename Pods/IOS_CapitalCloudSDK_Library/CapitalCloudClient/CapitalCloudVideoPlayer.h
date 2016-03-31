@@ -10,10 +10,27 @@
  @header CapitalCloudVideoPlayer
  @abstract 视频播放接口类.
  @author capitalCloud
- @version 1.3.2
+ @version 1.0.6
  */
 #import <Foundation/Foundation.h>
 @class CapitalCloudVideoPlayerConfigurations;
+
+/*!
+ @property
+ @abstract 进入全屏模式；
+ 需#import "CapitalCloudVideoPlayer.h"
+ [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(xxxx:)      name:fullScreen object:nil];
+ */
+extern NSString * const fullScreen;
+
+/*!
+ @property
+ @abstract 退出全屏；
+ 需#import "CapitalCloudVideoPlayer.h"
+ [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(xxxx:)      name:exitFullScreen object:nil];
+ */
+extern NSString * const exitFullScreen;
+
 /*!
  @property
  @abstract 视频准备播放；
