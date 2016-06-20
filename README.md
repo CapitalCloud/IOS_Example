@@ -20,6 +20,10 @@ about 1.0.7:
 
 	fullscreen message;	
 
+about 1.0.8:
+
+	fix fullscreen bug;
+
 [For more information](https://github.com/CapitalCloud/IOS_CapitalCloudSDK_Library).
 
 [document](https://github.com/CapitalCloud/IOS_CapitalCloudSDK_Library/blob/master/apiDoc.zip).
