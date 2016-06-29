@@ -266,6 +266,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v5V-5Z-44e">
+                            <rect key="frame" x="0.0" y="167" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" title="恢复队列"/>
+                            <connections>
+                                <action selector="resumeAll:" destination="she-sB-Vg8" eventType="touchUpInside" id="YrU-i0-oWO"/>
+                            </connections>
+                        </button>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DownloaderCell" rowHeight="81" id="fx2-Re-pQ2" customClass="DownloaderTableViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="81"/>
@@ -318,7 +327,19 @@
                             <outlet property="delegate" destination="she-sB-Vg8" id="8sq-CV-kfg"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="下载列表" id="8HB-Ln-rR6"/>
+                    <navigationItem key="navigationItem" title="下载列表" id="8HB-Ln-rR6">
+                        <barButtonItem key="rightBarButtonItem" id="c9I-l6-Mi9">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HZo-Hp-ZGc">
+                                <rect key="frame" x="233" y="7" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="暂停队列"/>
+                                <connections>
+                                    <action selector="pauseAll:" destination="she-sB-Vg8" eventType="touchUpInside" id="vHI-vy-DMU"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mrV-3t-CnG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

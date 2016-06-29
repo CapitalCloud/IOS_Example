@@ -82,6 +82,19 @@
     return cell;
 }
 
+
+-(IBAction)pauseAll:(id)sender
+{
+    [[CapitalCloudHelper downloaderManager] pause];
+    NSLog(@"pause_all");
+}
+
+-(IBAction)resumeAll:(id)sender
+{
+    [[CapitalCloudHelper downloaderManager] resume];
+    NSLog(@"resume_all");
+}
+
 -(NSString *)status:(NSString *)status
 {
     if([status isEqualToString:@"preparing"])

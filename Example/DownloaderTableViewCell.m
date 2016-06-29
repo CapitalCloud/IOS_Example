@@ -9,6 +9,10 @@
 #import "DownloaderTableViewCell.h"
 #import "CapitalCloudHelper.h"
 
+@interface DownloaderTableViewCell()
+@property (readwrite) NSTimer *timer;
+@end
+
 @implementation DownloaderTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
@@ -50,9 +54,31 @@
     // Initialization code
 }
 
+- (IBAction)pause:(id)sender
+{
+    [[CapitalCloudHelper downloaderManager] pause:_loader];
+    _status.text = @"暂停";
+}
+
+- (IBAction)resume:(id)sender
+{
+    [[CapitalCloudHelper downloaderManager] resume:_loader];
+    _status.text = @"恢复";
+}
+
 - (IBAction)pauseOrResume:(id)sender
 {
-    if([(UISwitch *)sender isOn])
+    if ([self timer].isValid) {
+        [[self timer] invalidate];
+    }
+    [self setTimer:nil];
+    [self setTimer:[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(swichVideoStatus:) userInfo:[NSNumber numberWithBool:[(UISwitch *)sender isOn]] repeats:NO]];
+    
+}
+
+-(void)swichVideoStatus:(NSTimer *)timer{
+    NSLog(@"userinfo:%d",[timer userInfo]==[NSNumber numberWithInt:1]);
+    if([[NSNumber numberWithInt:1] compare:[timer userInfo]] == NSOrderedSame)
     {
         [[CapitalCloudHelper downloaderManager] resume:_loader];
         _status.text = @"正在下载";
