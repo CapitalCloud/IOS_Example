@@ -54,18 +54,6 @@
     // Initialization code
 }
 
-- (IBAction)pause:(id)sender
-{
-    [[CapitalCloudHelper downloaderManager] pause:_loader];
-    _status.text = @"暂停";
-}
-
-- (IBAction)resume:(id)sender
-{
-    [[CapitalCloudHelper downloaderManager] resume:_loader];
-    _status.text = @"恢复";
-}
-
 - (IBAction)pauseOrResume:(id)sender
 {
     if ([self timer].isValid) {
@@ -76,8 +64,8 @@
     
 }
 
--(void)swichVideoStatus:(NSTimer *)timer{
-    NSLog(@"userinfo:%d",[timer userInfo]==[NSNumber numberWithInt:1]);
+-(void)swichVideoStatus:(NSTimer *)timer 
+{
     if([[NSNumber numberWithInt:1] compare:[timer userInfo]] == NSOrderedSame)
     {
         [[CapitalCloudHelper downloaderManager] resume:_loader];
