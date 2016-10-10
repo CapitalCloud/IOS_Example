@@ -2,7 +2,7 @@ IOS sdk example.
 
 You may need run 'pod install' or 'pod update' first.
 
-The latest version of 'IOS_CapitalCloudSDK_Library' pod is '1.0.7'.
+The latest version of 'IOS_CapitalCloudSDK_Library' pod is '1.0.11'.
 
 about 1.0.3:
 
@@ -23,6 +23,10 @@ about 1.0.7:
 about 1.0.8:
 
 	fix fullscreen bug;
+
+about 1.0.11:
+	
+	add file size of CapitalCloudRedition
 
 [For more information](https://github.com/CapitalCloud/IOS_CapitalCloudSDK_Library).
 

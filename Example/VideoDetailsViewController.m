@@ -75,12 +75,14 @@
     {
         ivc = (CapitalCloudPlayerViewController *)segue.destinationViewController;
         CGRect region = CGRectMake(0, 0, 320, 240);
-        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"428082998184697028" inRegion:region];
+//        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"428082998184697028" inRegion:region];
         //      capitalcloud
-//        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"622181572574391587" inRegion:region];
+        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"622181572574391587" inRegion:region];
 //        dev
-//        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"107" inRegion:region];
-//        staging
+        NSError *error = nil;
+//        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"906046303676895492" inRegion:region];
+        [[[CapitalCloudHelper apiClient] entriesHandler] get:@"906785641614461714" error:&error];
+        //        staging
 //        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"622181572574391587" inRegion:region];
     }
     else if ([segue.destinationViewController isKindOfClass:[VideoDownloaderListViewController class]])

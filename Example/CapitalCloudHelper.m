@@ -21,12 +21,12 @@ static CapitalCloudVideoUploaderManager *_uploaderManager;
     if (!_apiClient)
     {
         
-        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"SJQ-7zgT_lOwaq816PPkkeJiCY5zjPAVGx-ZDyLL854="];
+//        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"SJQ-7zgT_lOwaq816PPkkeJiCY5zjPAVGx-ZDyLL854="];
 //      capitalcloud
-//        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"U2QDmmEY5tOSEb6qw3g_p5hsmCOXc92iJd304oUq7ISgzT3KWRf61xKFm0fa_rEX"];
+        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"U2QDmmEY5tOSEb6qw3g_p5hsmCOXc92iJd304oUq7ISgzT3KWRf61xKFm0fa_rEX"];
         
 //      dev
-//        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"SJQ-7zgT_lOwaq816PPkkQRsTEepLlhulfJpjSCE30g="];
+//        _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"3PthiUuTUAKoDR_0fWxO3KqPPkrenJqk1rwvQt_GsUrh4EGXVEZtHBQCVI-lvEKM"];
 //      staging
 //     _apiClient = [[CapitalCloudAPIClient alloc] initWithToken:@"U2QDmmEY5tOSEb6qw3g_p5hsmCOXc92iJd304oUq7ITUh9GFH1c7E5ayBUXNNVE4"];
     }

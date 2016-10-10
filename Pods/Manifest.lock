@@ -1,10 +1,10 @@
 PODS:
-  - IOS_CapitalCloudSDK_Library (1.0.9)
+  - IOS_CapitalCloudSDK_Library (1.0.11)
 
 DEPENDENCIES:
-  - IOS_CapitalCloudSDK_Library (~> 1.0.9)
+  - IOS_CapitalCloudSDK_Library (~> 1.0.11)
 
 SPEC CHECKSUMS:
-  IOS_CapitalCloudSDK_Library: 9afd86613658dc914f1f871e9cedf926ad88815f
+  IOS_CapitalCloudSDK_Library: 4781bfe6e3c004387ae424c401844d28af8913ce
 
 COCOAPODS: 0.39.0
