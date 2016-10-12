@@ -78,7 +78,7 @@
 //        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"428082998184697028" inRegion:region];
         //      capitalcloud
         [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"622181572574391587" inRegion:region];
-//        dev
+        //        dev
         NSError *error = nil;
 //        [ivc prepareVideo:self.video withApiClient:[CapitalCloudHelper apiClient] andPlayerId:@"906046303676895492" inRegion:region];
         [[[CapitalCloudHelper apiClient] entriesHandler] get:@"906785641614461714" error:&error];
@@ -129,6 +129,7 @@
     id obj = [notification userInfo];
     NSLog(@"videoStart obj:\n%@",obj);
     _status.text = [NSString stringWithFormat:@"videoStart:%@",obj];
+    [ivc seek:10.0];
 }
 
 - (void) videoPlay:(NSNotification*) notification
@@ -136,6 +137,7 @@
     id obj = [notification userInfo];
     NSLog(@"videoPlay obj:\n%@",obj);
     _status.text = [NSString stringWithFormat:@"videoPlay:%@",obj];
+    [ivc seek:10.0];
 }
 
 - (void) videoPause:(NSNotification*) notification

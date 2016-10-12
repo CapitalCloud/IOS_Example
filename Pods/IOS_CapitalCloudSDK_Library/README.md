@@ -4,9 +4,9 @@ call api:
 
 	token auth;
 
-	entries curd;
+	entries crud;
 
-	categories curd;
+	categories crud;
 
 	set callback;
 =============================

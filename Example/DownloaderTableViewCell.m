@@ -42,7 +42,6 @@
 {
     _progress.progress = progress;
     _status.text = @"正在下载";
-    NSLog(@"fileSize:%ld",(long)[[_loader capitalCloudRendition] fileSize]);
 }
 
 -(void)downloadFailed:(NSError *)error InResponse:(NSHTTPURLResponse *)response

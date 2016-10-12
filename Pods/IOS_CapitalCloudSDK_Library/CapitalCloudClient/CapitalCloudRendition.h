@@ -20,7 +20,7 @@
 @property(nonatomic, assign) NSInteger height;
 @property(nonatomic, assign) NSInteger frameRate;
 @property(nonatomic, assign) NSInteger kbps;
-@property(nonatomic, assign) NSInteger fileSize;
+@property(nonatomic, assign) long fileSize;
 @property(nonatomic, strong) NSDictionary *urls;
 
 - (instancetype) initWithJsonObject:(NSDictionary *)jsonObject entryId:(NSString *) entryId;
